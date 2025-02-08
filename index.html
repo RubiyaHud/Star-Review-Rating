@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star-Review-Rating</title>
+    <!-- All CSS File Start -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- All CSS File End -->
+    <!-- Font Awesome (CDN) Start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome End -->
+
+    <!-- Direct use the CDN link below:-->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <!-- Or, Download the CSS file from the CDN link and Use this file: -->
+    <script src="tailwind.css"></script>
+    <style>
+        .checked {
+            color: #F9BD2C;
+            font-size: 32px;
+        }
+        .checked2 {
+            color: #962cf9;
+            font-size: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="">
+        <h3>Using Font Awesome i tag</h3>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked2"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa fa-star-half"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+
+    <div class="">
+        <h3>Using span tag</h3>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked2"></span>
+    </div>
+
+    <div class="mt-[50px]">
+        <h3> Using Tailwind CSS Class with i and span tag </h3>
+        <i class="fa-solid fa-star text-[#FF7628]"></i>
+        <span class="fa fa-star text-[#F9BD2C]"></span>
+        <span class="fa fa-star text-[32px] "></span>
+        <span class="fa fa-star "></span>
+        <span class="fa fa-star "></span>
+    </div>
+
+    <!-- All JS File Start -->
+    <script src="tailwind.config.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- All JS File End -->
+</body>
+
+</html>
